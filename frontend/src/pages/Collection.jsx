@@ -96,15 +96,26 @@ const Collection = () => {
           <p className="mb-3 text-sm font-medium">CATEGORIAS</p>
           <div className="flex flex-col gap-2 text-sm font-light text-gray-700">
             <p className="flex gap-2">
-              <input className="w-3" type="checkbox" value={"Men"} onChange={toggleCategory} /> Men
+              <input className="w-3" type="checkbox" value={"Premium"} onChange={toggleCategory} />{" "}
+              Premium
             </p>
             <p className="flex gap-2">
-              <input className="w-3" type="checkbox" value={"Women"} onChange={toggleCategory} />{" "}
-              Women
+              <input
+                className="w-3"
+                type="checkbox"
+                value={"Recomendados"}
+                onChange={toggleCategory}
+              />{" "}
+              Recomendados
             </p>
             <p className="flex gap-2">
-              <input className="w-3" type="checkbox" value={"Kids"} onChange={toggleCategory} />{" "}
-              Kids
+              <input
+                className="w-3"
+                type="checkbox"
+                value={"Populares"}
+                onChange={toggleCategory}
+              />{" "}
+              Populares
             </p>
           </div>
         </div>
@@ -118,28 +129,28 @@ const Collection = () => {
               <input
                 className="w-3"
                 type="checkbox"
-                value={"Topwear"}
+                value={"Gourmet"}
                 onChange={toggleSubCategory}
               />{" "}
-              Topwear
+              Gourmet
             </p>
             <p className="flex gap-2">
               <input
                 className="w-3"
                 type="checkbox"
-                value={"Bottomwear"}
+                value={"Hamburguesas"}
                 onChange={toggleSubCategory}
               />{" "}
-              Bottomwear
+              Hamburguesas
             </p>
             <p className="flex gap-2">
               <input
                 className="w-3"
                 type="checkbox"
-                value={"Winterwear"}
+                value={"Pizzas"}
                 onChange={toggleSubCategory}
               />{" "}
-              Winterwear
+              Pizzas
             </p>
           </div>
         </div>
@@ -154,9 +165,9 @@ const Collection = () => {
             onChange={(e) => setSortType(e.target.value)}
             className="border-2 border-gray-300 text-sm px-2"
           >
-            <option value="relavent">Sort by: Relavent</option>
-            <option value="low-high">Sort by: Low to High</option>
-            <option value="high-low">Sort by: High to Low</option>
+            <option value="relavent">Ordenar por: Relevante</option>
+            <option value="low-high">Ordenar por: Menor a Mayor</option>
+            <option value="high-low">Ordenar por: Mayor a Menor</option>
           </select>
         </div>
 

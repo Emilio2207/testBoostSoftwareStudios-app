@@ -26,11 +26,11 @@ const Orders = () => {
                     {currency}
                     {item.price}
                   </p>
-                  <p>Quantity: 1</p>
-                  <p>Size: M</p>
+                  <p>Cantidad: 1</p>
+                  <p>Tamaño: M</p>
                 </div>
                 <p className="mt-2">
-                  Date: <span className="text-gray-400">25, Ago, 2024</span>
+                  Fecha: <span className="text-gray-400">25, Ago, 2024</span>
                 </p>
               </div>
             </div>

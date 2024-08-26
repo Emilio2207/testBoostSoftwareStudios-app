@@ -64,7 +64,7 @@ const Product = () => {
           </p>
           <p className="mt-5 text-gray-500 md:w-4/5">{productData.description}</p>
           <div className="flex flex-col gap-4 my-8">
-            <p>Select Size</p>
+            <p>Seleccionar tamaño</p>
             <div className="flex gap-2">
               {productData.sizes.map((item, index) => (
                 <button
@@ -83,13 +83,13 @@ const Product = () => {
             onClick={() => addToCart(productData._id, size)}
             className="bg-black text-white px-8 py-3 text-sm active:bg-gray-700"
           >
-            ADD TO CART
+            AÑADIR AL CARRITO
           </button>
           <hr className="mt-8 sm:w-4/5" />
           <div className="text-sm text-gray-500 mt-5 flex flex-col gap-1">
-            <p>100% Original product.</p>
-            <p>Cash on delivery is available on this product.</p>
-            <p>Easy return and exchange policy within 7 days.</p>
+            <p>100% Producto original.</p>
+            <p>Reembolso disponible para este producto.</p>
+            <p>Política de devolución y cambio, plazo de 35 miutos.</p>
           </div>
         </div>
       </div>
@@ -97,22 +97,28 @@ const Product = () => {
       {/* -------- Description & Review Section -------- */}
       <div className="mt-20">
         <div className="flex">
-          <b className="border px-5 py-3 text-sm">Description</b>
-          <p className="border px-5 py-3 text-sm">Reviews (122)</p>
+          <b className="border px-5 py-3 text-sm">Descripción</b>
+          <p className="border px-5 py-3 text-sm">Reseñas (122)</p>
         </div>
         <div className="flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500">
           <p>
-            An e-commerce website is an online platform that facilitates the buying and selling of
-            products or services over the internet. It serves as a virtual marketplace where
-            businesses and individuals can showcase their products, interact with customers, and
-            conduct transactions without the need for a physical presence. E-commerce websites have
-            gained immense popularity due to their convenience, accessibility, and the global reach
-            they offer.
+            Un catálogo y sección de productos en un sitio web es una vitrina digital que presenta
+            de manera organizada y atractiva la variedad de productos disponibles para la venta.
+            Esta sección permite a los usuarios explorar, filtrar y seleccionar artículos según sus
+            preferencias, facilitando la experiencia de compra en línea. Los catálogos proporcionan
+            información detallada, imágenes de alta calidad y opciones de comparación, ayudando a
+            los clientes a tomar decisiones informadas. Además, reflejan la diversidad y amplitud de
+            la oferta del negocio, siendo esenciales para captar la atención del consumidor y
+            fomentar las compras.
           </p>
           <p>
-            E-commerce websites typically display products or services along with detailed
-            descriptions, images, price, and any available variations (e.g., sizes, colors). Each
-            product usually has its own dedicated page with relevant information.
+            Los catálogos y secciones de productos en sitios web presentan productos de manera
+            detallada, incluyendo descripciones exhaustivas, (imágenes, precios, y opciones
+            disponibles como tamaños). Cada producto cuenta con una página dedicada donde los
+            usuarios pueden obtener toda la información relevante, facilitando una navegación clara
+            y una experiencia de compra personalizada y eficiente. Estas secciones son cruciales
+            para destacar las características de los productos y ayudar a los clientes a encontrar
+            exactamente lo que buscan.
           </p>
         </div>
       </div>
