@@ -32,10 +32,10 @@ Sigue estos pasos para clonar y ejecutar el proyecto en tu entorno local:
 
 1. **Clonar el repositorio:**
 
-   ```bash
-   git clone https://github.com/Emilio2207/testBoostSoftwareStudios-app.git
-   cd testBoostSoftwareStudios-app
-   ```
+```bash
+git clone https://github.com/Emilio2207/testBoostSoftwareStudios-app.git
+cd testBoostSoftwareStudios-app
+```
 
 2. **Instalar las dependencias:**
 
