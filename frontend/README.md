@@ -39,23 +39,35 @@ Sigue estos pasos para clonar y ejecutar el proyecto en tu entorno local:
 
 2. **Instalar las dependencias:**
 
-Si estás usando npm: npm install
-O si prefieres yarn: yarn install
+Usando npm:
+
+```bash
+npm install
+```
 
 3. **Ejecutar el proyecto en modo desarrollo:**
 
-Si estás usando npm: npm run dev
-O con yarn: yarn dev
+Usando npm:
+
+```bash
+npm run dev
+```
 
 4. **Construir el proyecto para producción:**
 
-Si deseas crear una versión optimizada para producción: npm run build
-O con yarn: yarn build
+Usando npm:
+
+```bash
+npm run build
+```
 
 5. **Previsualizar la compilación de producción:**
 
-Puedes previsualizar la versión construida con el siguiente comando: npm run preview
-O con yarn: yarn preview
+Usando npm:
+
+```bash
+npm run preview
+```
 
 ## Licencia
 
